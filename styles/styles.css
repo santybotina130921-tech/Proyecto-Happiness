@@ -166,7 +166,7 @@ p { margin: 0 0 22px; }
 .numbers__graph { flex: 0 1 220px; }
 .numbers__graph img { margin: 0 auto; width: 200px; }
  
-/* WE CAN HELP YOU   */
+/* WE CAN HELP YOU  */
 .help {
   background: var(--amarillo);
   padding: 80px 0 100px;
@@ -184,3 +184,53 @@ p { margin: 0 0 22px; }
  
 .help__media { flex: 1 1 55%; margin-top: 60px; }
 .help__media img { width: 100%; box-shadow: var(--sombra); }
+
+/*HAPPINESS*/
+
+.percent { padding: 90px 0; }
+.percent__card {
+  background: var(--gris);
+  box-shadow: var(--sombra);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 50px;
+  padding-right: 60px;
+}
+ 
+.percent__media {
+  flex: 1 1 50%;
+  margin-left: -50px;
+}
+.percent__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: var(--sombra);
+}
+ 
+.percent__content { flex: 1 1 50%; padding: 50px 0; }
+.percent__content p { font-size: .9rem; max-width: 420px; }
+.percent__graph { margin-top: 40px; display: flex; justify-content: flex-end; padding-right: 30px; }
+.percent__graph img { width: 210px; }
+
+/* ABOUT US */
+.about {
+  background: var(--negro);
+  padding: 80px 0 90px;
+  text-align: center;
+}
+ 
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.about__text {
+  color: var(--blanco);
+  max-width: 560px;
+  font-size: .95rem;
+  margin-bottom: 40px;
+}
+.about__media { max-width: 720px; margin-bottom: 40px; }
