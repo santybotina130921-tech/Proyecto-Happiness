@@ -234,3 +234,101 @@ p { margin: 0 0 22px; }
   margin-bottom: 40px;
 }
 .about__media { max-width: 720px; margin-bottom: 40px; }
+
+/* OUR TEAM  */
+.team { padding: 90px 0; }
+ 
+.team__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+}
+ 
+.team__media   { flex: 1 1 55%; }
+.team__content { flex: 1 1 40%; }
+ 
+.team__media img { width: 100%; }
+.team__content p { font-size: .95rem; max-width: 420px; }
+ 
+/* TRY OUR METHOD */
+.method {
+  background: var(--gris);
+  padding: 90px 0;
+}
+ 
+.method__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+ 
+.method__content { flex: 1 1 40%; }
+.method__media   { flex: 1 1 55%; }
+ 
+.method__content p { font-size: .92rem; max-width: 420px; }
+.method__media img { width: 100%; }
+
+.newsletter { padding: 100px 0; }
+ 
+.newsletter__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+ /*NEWSLETTER*/
+.form                { flex: 1 1 50%; }
+.newsletter__content { flex: 1 1 50%; }
+ 
+.newsletter__content p { font-size: .98rem; max-width: 460px; }
+ 
+/* --- Formulario --- */
+.form {
+  background: var(--negro);
+  padding: 40px 45px 35px;
+  color: var(--blanco);
+}
+ 
+.form__row {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+.form__row .form__group { flex: 1 1 50%; }
+ 
+.form__group { margin-bottom: 14px; }
+ 
+.form__group label {
+  display: block;
+  font-weight: 700;
+  font-size: .95rem;
+  margin-bottom: 6px;
+  color: var(--blanco);
+}
+ 
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  background: transparent;
+  border: 2px solid var(--blanco);
+  color: var(--blanco);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 8px 10px;
+  outline: none;
+  transition: border-color .25s;
+}
+ 
+.form__group input:focus,
+.form__group textarea:focus { border-color: var(--amarillo); }
+ 
+.form__group textarea { resize: vertical; min-height: 130px; }
+ 
+.form__legal {
+  font-size: .68rem;
+  line-height: 1.5;
+  color: #D6D6D6;
+  margin: 18px 0 0;
+}
